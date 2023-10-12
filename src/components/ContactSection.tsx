@@ -14,7 +14,7 @@ const skills = [
 
 export default function ContactSection() {
   return (
-    <section id="about">
+    <section id="contact">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-3xl">
           Contact Me

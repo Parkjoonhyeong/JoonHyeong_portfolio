@@ -42,7 +42,7 @@ export default function Navbar() {
             }`}
           >
             <div className="item-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              {!pathName.includes('/project') &&
+              {!pathName.includes('/project') 
                 NAV_ITEMS.map((item, index) => {
                   return (
                     <Link
