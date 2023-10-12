@@ -25,9 +25,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3">
             <NextLink href="/">
               <div className="md:py-2 md:block">
-                <h2 className="text-2xl font-bold">
-                  {"JoonHyeong's Portfolio"}
-                </h2>
+                <h2 className="text-2xl font-bold">{"Sehyeon's Portfolio"}</h2>
               </div>
             </NextLink>
             <div className="md:hidden">
@@ -55,6 +53,7 @@ export default function Navbar() {
                       smooth={true}
                       offset={-100}
                       duration={500}
+                      // href={`#${item.page}`}
                       onClick={() => setNavbar(!navbar)}
                       className="block lg:inline-block text-neutral-900 hover:text-neutral-500 justify-center md:space-x-6 cursor-pointer"
                     >

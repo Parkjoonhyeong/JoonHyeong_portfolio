@@ -8,12 +8,9 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 export const metadata = {
   title: {
     default: '박준형의 포트폴리오',
-    template: '박준형의 포트폴리오 | %s',
+    template: '박준형의 포트폴리오',
   },
   description: '정보보호전문가를 꿈꾸는 박준형의 포트폴리오입니다.',
-  icons: {
-    icons: '👋🏻',
-  },
 }
 
 export default function RootLayout({

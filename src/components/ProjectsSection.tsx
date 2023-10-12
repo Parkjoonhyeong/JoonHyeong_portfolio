@@ -1,8 +1,7 @@
 import React from 'react'
-import { Project, getAllProject } from '@/service/projects'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
 import SlideUp from './SlideUp'
 
 const project1 = {
