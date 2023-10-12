@@ -1,11 +1,11 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
+'use client'
+import React from 'react'
+import { motion } from 'framer-motion'
 
 type AnimatedProps = {
-  text: string;
-  className: string;
-};
+  text: string
+  className: string
+}
 
 const quote = {
   initial: {
@@ -18,7 +18,7 @@ const quote = {
       staggerChildren: 0.08,
     },
   },
-};
+}
 
 const singleWord = {
   initial: {
@@ -32,7 +32,7 @@ const singleWord = {
       duration: 1,
     },
   },
-};
+}
 
 export default function AnimatedText({ text, className }: AnimatedProps) {
   return (
@@ -42,9 +42,9 @@ export default function AnimatedText({ text, className }: AnimatedProps) {
       initial="initial"
       animate="animate"
     >
-      {text.split(" ").map((word: string, index) => (
+      {text.split(' ').map((word: string, index) => (
         <motion.span
-          key={word + "-" + index}
+          key={word + '-' + index}
           className="inline-block"
           variants={singleWord}
         >
@@ -52,5 +52,5 @@ export default function AnimatedText({ text, className }: AnimatedProps) {
         </motion.span>
       ))}
     </motion.h1>
-  );
+  )
 }

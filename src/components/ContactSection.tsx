@@ -25,25 +25,12 @@ export default function ContactSection() {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               📬 Contact
             </h1>
-            <p>Phone number : 010-8806-3984 email : pjh010919@naver.com</p>
+            <p>
+              📞Phone number : 010-8806-3984 <br />
+              📧email : pjh010919@naver.com <br />
+              👦instagram : junbr0_01 <br />
+            </p>
             <br />
-          </div>
-          <div className="md:w-1/2">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              My Skills
-            </h1>
-            <div className="flex flex-wrap flex-row justify-center md:justify-start">
-              {skills.map((item, index) => {
-                return (
-                  <p
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
-                    key={index}
-                  >
-                    {item.skill}
-                  </p>
-                )
-              })}
-            </div>
           </div>
         </div>
       </div>

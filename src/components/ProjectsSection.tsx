@@ -7,7 +7,7 @@ import SlideUp from './SlideUp'
 const project1 = {
   title: 'Clerk Auth',
   description: '2023년 1학기에 한 Clerk Auth 사이트입니다.',
-  link: 'https://hcj1-theta.vercel.app/',
+  link: 'https://clerk1-olive.vercel.app/',
   github: 'https://github.com/Parkjoonhyeong/Clerk1',
   imagePath: '/images/projects/Clerk_Auth.jpg',
 }
