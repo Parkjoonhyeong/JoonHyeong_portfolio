@@ -14,6 +14,7 @@ const skills = [
   { skill: 'Git' },
 ]
 
+const certifications = [{ certification: '네트워크 관리사 2급' }]
 export default function AboutSection() {
   return (
     <section id="about">
@@ -34,6 +35,7 @@ export default function AboutSection() {
               알게 되면서 관심이 생겨 정보보호학과에 진학했습니다.대학교에
               들어와서는 정보보호 동아리인 SCP에 가입하여, 리버싱을
               공부중입니다.
+              <br />
             </p>
             <br />
           </div>
@@ -52,6 +54,20 @@ export default function AboutSection() {
                   </p>
                 )
               })}
+            </div>
+
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+              보유 자격증
+            </h1>
+            <div className="flex flex-wrap flex-row justify-center md:justify-start">
+              {certifications.map((item, index) => (
+                <p
+                  className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                  key={index}
+                >
+                  {item.certification}
+                </p>
+              ))}
             </div>
 
             <Image
