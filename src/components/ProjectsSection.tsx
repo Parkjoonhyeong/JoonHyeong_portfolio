@@ -43,7 +43,7 @@ const project5 = {
   description:
     '2023년 2학기에 할 팀프로젝트  감자 마켓 사이트입니다. 팀원은 92015075 김평안,​ 92014966 김건희​, 92015154 박준형​, 92015192 신건훈 입니다.',
   link: 'https://potato-market.vercel.app',
-  github: 'https://github.com/crew852/potato_market',
+  github: 'https://github.com/Parkjoonhyeong/potato_market',
   imagePath: '/images/projects/Gamja_Market.jpg',
 }
 
